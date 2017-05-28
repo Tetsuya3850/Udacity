@@ -1,0 +1,77 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  font-size: 12px;
+}
+
+h1 {
+  color: #525454;
+  font-size: 22px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+#map {
+  height: 100%;
+  z-index: 0;
+  position: fixed;
+}
+
+.listNeighbor {
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 10px;
+  height: 220px;
+  z-index: 2;
+  position: fixed;
+  line-height: 35px;
+  padding: 10px 10px 30px 10px;
+  text-align: left;
+  width: 310px;
+  top: 10px;
+  right: 10px;
+  overflow: scroll;
+}
+
+.searchBar{
+  z-index: 1;
+  position: fixed;
+  width: 350px;
+  top: 10px;
+  left: 10px;
+}
+
+#searchInput {
+  border: 1px solid #000000;
+  font-size: 16px;
+  padding: 10px;
+  outline: none;
+  width: 250px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 630px) {
+
+  .listNeighbor {
+    top: 70%;
+    height: 145px;
+  }
+
+}

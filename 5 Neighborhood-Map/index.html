@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Arima Neighborhood Map</title>
+  </head>
+  <body>
+    <form class="searchBar" action="#">
+      <input id="searchInput" placeholder="Search…" type="text" data-bind="value: query, valueUpdate: 'keyup'" autocomplete="off">
+    </form>
+      <section class="listNeighbor">
+        <h1>Neighborhood Map</h1>
+        <hr>
+        <div>
+          <ul data-bind="foreach: locationList">
+            <li class="locationTitle" data-bind="text: title, click: $parent.setLocation"></li>
+          </ul>
+        </div>
+      </section>
+      <main id="map"></main>
+      <script src="js/knockout-3.4.1.js"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/app.js" defer="defer"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyB-nYtMpDDba9t4lp32MihmrqowsHg00WA&v=3&callback=initMap" onerror="googleError()">
+      </script>
+  </body>
+</html>

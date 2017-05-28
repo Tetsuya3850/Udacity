@@ -1,0 +1,99 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.logo__mobile {
+  display: block;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.title__name {
+    font-weight: 100;
+    font-size: 36px;
+}
+
+hr {
+  border-width: 4px;
+  border-top-color: #9a9a9a;
+}
+
+.mainImage {
+  display: none;
+}
+
+.projectTop {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #bcbbbb;
+  text-align: center;
+}
+
+.projects__image {
+  display: block;
+  margin: auto;
+}
+
+.projects__title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Insert Main Image */
+@media screen and (min-width: 720px) {
+  .title__name {
+      font-size: 40px;
+  }
+
+  .title__role {
+    font-size: 20px;
+  }
+
+  .mainImage {
+    display: block;
+  }
+
+  .projectTop {
+    font-size: 32px;
+  }
+}
+
+/* Change Align of Title */
+@media screen and (min-width: 992px) {
+  .logo__mobile {
+    margin-left: 0;
+  }
+
+  .title__name {
+    text-align: right;
+    font-size: 50px;
+    margin-top: 50px;
+  }
+
+  .title__role {
+    font-size: 25px;
+    text-align: right;
+  }
+
+  .projectTop {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+}

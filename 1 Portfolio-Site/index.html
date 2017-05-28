@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tetsuya Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300">
+    <link rel="shortcut icon" type="image/png" href="img/logoSimple.png">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!-- Logo and Title -->
+      <header class="row">
+        <section class="col-md-6 logo">
+          <picture>
+            <source media="(min-width: 992px)" srcset="img/logoDesktop.png">
+            <img class="logo__mobile" src="img/logoMobile.png" alt="logo">
+          </picture>
+        </section>
+        <section class="col-md-6 title">
+          <h1 class="title__name">Tetsuya Hasegawa</h1>
+          <h4 class="title__role">Earth Media Designer</h4>
+        </section>
+      </header>
+
+      <!-- Line -->
+      <section class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </section>
+
+      <!-- Main Image -->
+      <section class="row">
+        <figure class="col-md-12 mainImage">
+          <img class="img-responsive" src="img/main.jpg" alt="main image">
+          <figcaption>©️ Tohaku Hasegawa</figcaption>
+        </figure>
+      </section>
+
+      <!-- Project Top -->
+      <section class="row">
+        <header class="col-md-12">
+          <h3 class="projectTop">Featured Work</h3>
+        </header>
+      </section>
+
+      <!-- Projects -->
+      <main class="row">
+        <article class="col-md-4">
+          <img class="img-responsive projects__image" src="img/tem.jpg" alt="Portfolio1" data-toggle="modal" data-target="#temModal">
+          <h4 class="projects__title"><a href="http://earth-museum.jp/en-2/" target="_blank">Tangible Earth Museum</a></h4>
+        </article>
+        <article class="col-md-4">
+          <img class="img-responsive projects__image" src="img/earthsolution.jpg" alt="Portfolio2" data-toggle="modal" data-target="#CPVModal">
+          <h4 class="projects__title">Earth Solutions Panel</h4>
+        </article>
+        <article class="col-md-4">
+          <img class="img-responsive projects__image" src="img/gft.png" alt="Portfolio3" data-toggle="modal" data-target="#gftModal">
+          <h4 class="projects__title"><a href="http://www.preventionweb.net/english/hyogo/gar/2015/en/home/gft.html" target="_blank">GAR for Tangible Earth</a></h4>
+        </article>
+      </main>
+    </div>
+
+    <!--Modal Links-->
+    <article class="modal fade" id="temModal" tabindex="-1" role="dialog" aria-labelledby="temModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="temModalLabel">Tangible Earth Museum</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              TANGIBLE EARTH is the world’s first interactive digital globe that dynamically represents various aspects of the earth. It is a powerful tool for researchers, educators, policy makers and the general public to illustrate present conditions of the earth, and to promote a deeper understanding of global challenges in a planetary context.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="modal fade" id="CPVModal" tabindex="-1" role="dialog" aria-labelledby="CPVModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="CPVModalLabel">Earth Solutions Panel</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              Earth Solutions Panel is a table top interface system which you could interact with your hands to search through various good practices that is creating planetary value (CPV). There are 4 generes: Forest, Water, Food, Disasters. The system is based on Microsoft Kinect.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="modal fade" id="gftModal" tabindex="-1" role="dialog" aria-labelledby="gftModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="gftModalLabel">GAR for Tangible Earth(GfT)</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              A fully interactive stand-alone free Earth science application for learning about the past several decades in the life of our planet, and the role of the UNISDR. Added features include and ever-increasing body of data about good practices for preparing for and ameliorating disasters when they arise, and real-time disaster alerts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
+
+</html>
