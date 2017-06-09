@@ -10,11 +10,11 @@ A responsive resume page utilizing jQuery.
 A classic arcade game made by HTML5 Canvas and OOP. Reach the river without colliding with ladybugs!
 
 ## 4. Web Optimization
-Applied tips such as, inline CSS, async JavaScript, and minification to optimize performance. /n
+Applied tips such as, inline CSS, async JavaScript, and minification to optimize performance. <br />
 Overall performance theory was attained from [Google Web Fundamentals](https://developers.google.com/web/fundamentals/performance/).
 
 ## 5. Neighborhood Map
-A neighborhood map of popular places utilizing Google Maps API and Knockout.js framework. /n
+A neighborhood map of popular places utilizing Google Maps API and Knockout.js framework. <br />
 Places are searchable by search bar and list. Also, click the markers for more information from Wikipedia API.
 
 ## 6. Testing
