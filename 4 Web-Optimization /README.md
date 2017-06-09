@@ -1,10 +1,3 @@
-# How to SetUp
-
-1. Download this repo and unzip it.
-
-2. Open pizza.html inside file called views to your browser.
-
-
 # Changes in index.html
 
 #### Mobile: 92
