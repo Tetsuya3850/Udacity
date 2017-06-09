@@ -1,6 +1,6 @@
 6 Main Projects from the [Front-End Web Developer Nanodegree of Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001).
 
-## 1. Portfolio Site
+### 1. Portfolio Site
 A responsive portfolio site template utilizing Bootstrap's grid layout system and modal cards.
 
 ## 2. Resume Site
