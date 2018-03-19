@@ -1,12 +1,12 @@
 Projects from the [Front-End Web Developer Nanodegree of Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001).
 
-### 1. [Portfolio Site](https://portfolioudacity.herokuapp.com/)
+### 1. Portfolio Site
   A responsive portfolio site template utilizing Bootstrap's grid layout system and modal cards.
 
-### 2. [Resume Site](https://resumeudacity.herokuapp.com/)
+### 2. Resume Site
   A responsive resume page utilizing jQuery.
 
-### 3. [Arcade Game](https://arcadeudacity.herokuapp.com/)
+### 3. Arcade Game
   A classic arcade game made by HTML5 Canvas and OOP. Reach the river without colliding with ladybugs!
 
 ### 4. [Web Optimization](https://github.com/Tetsuya3850/Udacity-Front-End-Nanodegree/blob/master/4%20Web-Optimization%20/README.md)
